@@ -1,5 +1,3 @@
-Below is a `README.md` file for your Rust `VectorDB` project. The README provides an overview of the project, its purpose, features, usage instructions, and examples, while aligning with your LinkedIn post’s emphasis on simplicity, code quality, and rigorous code review. It includes sections for installation, usage, testing, and contributing, ensuring clarity for developers and users. The content reflects the functionality of the provided code, which implements a simple in-memory vector database for k-nearest neighbors (k-NN) search using cosine similarity.
-
 ---
 
 # VectorDB
