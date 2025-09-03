@@ -141,16 +141,4 @@ This project reflects a commitment to simplicity and code quality, as emphasized
 
 ## Contact
 
-For questions or feedback, please open an issue on the repository or contact the maintainer via LinkedIn.
-
----
-
-### Notes
-- **Structure**: The README includes standard sections (Overview, Features, Installation, Usage, Testing, etc.) for clarity and usability.
-- **Alignment with LinkedIn Post**: The “Connection to Code Quality” section ties the project to your emphasis on simplicity, quality, and review, highlighting how the documented and tested code avoids “noisy, verbose” issues.
-- **Usage Example**: Replicates the `main` function, showing expected output based on the calculated similarities.
-- **Visualization**: Mentions the optional plotting code from earlier responses, which can visualize the vectors (e.g., for query `[6.0, 1.0]`).
-- **Testing**: References the test suite, ensuring users know the code is verified.
-- **Limitations**: Acknowledges the brute-force approach and in-memory storage, suggesting improvements like HNSW for scalability.
-
-To use this README, create a `README.md` file in your project root and copy the content. If you need a `LICENSE` file or specific adjustments (e.g., repository URL, plotting code inclusion, or additional examples), let me know! The current date and time is 07:06 PM CEST, September 3, 2025.
+For questions or feedback, please open an issue on the repository or contact the maintainer.
