@@ -45,12 +45,12 @@ The `ResVDB` library provides a simple API for creating a vector database, inser
 ### Example
 
 ```rust
-use ResVDB::ResVDB;
+use ResVDB::VectorDB;
 
 fn main() {
     // Create a new ResVDB with 2D vectors
     let dimension = 2;
-    let mut db = ResVDB::new(dimension);
+    let mut db = VectorDB::new(dimension);
 
     // Insert sample vectors
     db.insert(1, vec![1.0, 2.0]).unwrap();
@@ -81,7 +81,7 @@ ID: 1 - Similarity: 0.58817166
 
 ### Key Methods
 
-- **`ResVDB::new(dimension: usize) -> Self`**: Creates a new database with the specified dimension.
+- **`VectorDB::new(dimension: usize) -> Self`**: Creates a new database with the specified dimension.
 - **`insert(id: u64, data: Vec<f32>) -> Result<(), String>`**: Inserts a vector with the given ID, validating its dimension.
 - **`cosine_similarity(v1: &[f32], v2: &[f32]) -> f32`**: Computes the cosine similarity between two vectors.
 - **`knn_search(query: &[f32], k: usize) -> Result<Vec<(u64, f32)>, String>`**: Finds the `k` nearest neighbors to the query vector, sorted by similarity in descending order.
