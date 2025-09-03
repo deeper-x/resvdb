@@ -1,5 +1,3 @@
----
-
 # VectorDB
 
 A simple, in-memory vector database implemented in Rust for performing k-nearest neighbors (k-NN) search using cosine similarity.
